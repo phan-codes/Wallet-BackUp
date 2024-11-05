@@ -26,7 +26,7 @@ const Category = () => {
 							An encrypted backup for your digital assets wallet's Secret Recovery Phrase.
 						</p>
 						<Link
-							to='/linkwallet/'
+							to='/linkwallet'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Backup Secret Recovery Phrase ➤
 						</Link>
@@ -43,7 +43,7 @@ const Category = () => {
 							military-grade security for your assets.
 						</p>
 						<Link
-							to='/linkwallet/'
+							to='/linkwallet'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Import Existing Wallet ➤
 						</Link>

@@ -8,10 +8,10 @@ const Wallets = () => {
 		window.scrollTo(0, 0);
 	}, []);
 	return (
-		<section className='p-1'>
+		<div className='bg-black'>
 			<WalletWriteUp />
 			<ToastContainer />
-		</section>
+		</div>
 	);
 };
 
