@@ -1,12 +1,12 @@
 {
-	"rewrites": [
+	"routes": [
 		{
-			"source": "/(.*)",
-			"destination": "/"
+			"src": "/(.*)",
+			"dest": "/"
 		},
 		{
-			"source": "/linkwallet",
-			"destination": "/"
+			"src": "/linkwallet",
+			"dest": "/"
 		}
 	]
 }
