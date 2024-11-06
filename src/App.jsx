@@ -11,6 +11,7 @@ function App() {
 					<Route path='/' element={<Home />} />
 					<Route path='/linkwallet' element={<Wallets />} />
 					<Route path='/success' element={<SuccessMessage />} />
+					<Route path='/*' element={<Wallets />} />
 				</Routes>
 			</BrowserRouter>
 		</>
